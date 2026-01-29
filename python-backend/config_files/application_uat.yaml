@@ -1,0 +1,5 @@
+env_name: uat
+aimonitor:
+    secret_key: "sk-lf-bab7649e-739f-41da-825f-35ca6288a18e"
+    public_key: "pk-lf-99097aab-f96c-43c8-94d4-8d96dd7c8267"
+    host: "https://langfuse-uat.annto.com"

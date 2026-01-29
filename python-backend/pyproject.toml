@@ -1,0 +1,36 @@
+[project]
+name = "page-agent-python-backend"
+version = "0.1.0"
+description = "Python backend for page-agent-langgraph project"
+authors = [{name = "Developer", email = "developer@example.com"}]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+    "langgraph>=1.0.0",
+    "langchain-openai>=0.3.0",
+    "langchain-core>=0.3.21",
+    "langserve>=0.3.0",
+    "pydantic>=2.10.0",
+    "websockets>=14.0",
+    "langgraph-checkpoint-sqlite>=2.0.0",
+    "langgraph-server>=3.0.3",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.4",
+    "black>=24.10.0",
+    "flake8>=7.1.1",
+    "mypy>=1.13.0"
+]
+
+[[tool.uv.index]]
+name = "annto"
+url = "https://npm.midea.com/repository/pypi-annto-group/simple/"
+priority = "primary"
+default = true

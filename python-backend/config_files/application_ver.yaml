@@ -1,0 +1,5 @@
+env_name: ver
+aimonitor:
+    secret_key: "sk-lf-b75e2bc2-a34c-4fb1-8b49-1001761c98c9"
+    public_key: "pk-lf-98e47c55-f1c6-46c2-89b3-5406cd6aec6f"
+    host: "https://langfuse-ver.annto.com"

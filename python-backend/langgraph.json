@@ -1,0 +1,9 @@
+{
+  "graphs": {
+    "psc-agent": "./backend/main.py:agent"
+  },
+  "env": ".env",
+  "http": {
+    "app": "./backend/rounte.py:app"
+  }
+}

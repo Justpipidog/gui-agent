@@ -1,0 +1,34 @@
+# Python
+python-backend/.venv/
+python-backend/__pycache__/
+python-backend/*.pyc
+python-backend/*.egg-info/
+*.egg-info/
+
+# Node.js
+page-six-agent/node_modules/
+page-six-agent/.pnpm-store/
+page-six-agent/dist/
+page-six-agent/.solid/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# LangGraph
+.langgraph_api/
+
+# Claude Code
+.claude/
+
+# Root
+nul
+node_modules/
+dist/
